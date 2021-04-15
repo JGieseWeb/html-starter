@@ -12,10 +12,6 @@ body {
   color: rgb(32, 35, 41);
 }
 
-.article {
-  background: rgb(60, 62, 68);
-  color: rgb(255, 255, 255);
-  margin: 0%;
 }
 .hero {
   color: rgb(32, 35, 41);
@@ -27,14 +23,20 @@ body {
 a {
   text-decoration: none;
 }
+h3 {font-size: 2em;}
+h2 {color: rgb(158, 158, 158);}
 .characters {
   background: rgb(32, 35, 41);
+  grid gap: 2em;
+
 }
 .character {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 1em;
+  grid-template-columns: auto 1fr;
   border-radius: 1em;
+  background: rgb(60, 62, 68);
+  color: rgb(255, 255, 255);
 }
 
 .header {
