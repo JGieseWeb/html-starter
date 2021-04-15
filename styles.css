@@ -3,16 +3,53 @@
 * :after {
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
 body {
+  margin: 0;
   background: rgb(32, 35, 41);
   color: rgb(32, 35, 41);
 }
 
 .article {
-  background-color: rgb(60, 62, 68);
+  background: rgb(60, 62, 68);
+  color: rgb(255, 255, 255);
+  margin: 0%;
 }
 .hero {
-  color: rgb(255, 255, 255);
+  color: rgb(32, 35, 41);
+  background: rgb(255, 255, 255);
+  font-size: 2em;
+  padding: 20px;
+  text-align: center;
 }
 a {
+  text-decoration: none;
+}
+.characters {
+  background: rgb(32, 35, 41);
+}
+.character {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1em;
+  border-radius: 1em;
+}
+
+.header {
+  background: rgb(255, 255, 255);
+  text-align: right;
+  padding: 20px;
+}
+.header a {
+  color: rgb(51, 51, 51);
+  text-align: right;
+}
+.top {
+  margin: 0;
+  font-size: small;
+}
+.article h2 {
+  color: rgb(255, 255, 255);
 }
